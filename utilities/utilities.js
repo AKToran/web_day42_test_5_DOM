@@ -7,6 +7,9 @@ function decrementTaskAssigned(){
   let tasks = parseInt(strTasks);
   tasks -= 1;
   document.getElementById('task-assigned').innerText = tasks;
+  if(tasks === 0){
+    alert("CONGRATULATIONS! You have completed all available tasks.")
+  }
 }
 
 function incrementTaskCompleted(){
@@ -26,6 +29,8 @@ function setActivityLog(id){
   <p>You have completed the task <span class="font-bold"> ${title} </span> at ${time}.</p>
   `
   activityDiv.appendChild(div);
-
-  console.log(div);
 }
+
+document.getElementById('clear-log').addEventListener('click', function(){
+  document.getElementById('activity-log').innerHTML = ``;
+})
