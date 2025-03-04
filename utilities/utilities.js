@@ -24,7 +24,7 @@ function setActivityLog(id){
   const time = new Date().toLocaleTimeString();
   let activityDiv = document.getElementById('activity-log');
   let div = document.createElement('div');
-  div.classList.add('m-2', 'p-2', 'rounded-xl', 'bg-slate-100');
+  div.classList.add('m-4', 'p-4', 'rounded-xl', 'bg-slate-100');
   div.innerHTML = `
   <p>You have completed the task <span class="font-bold"> ${title} </span> at ${time}.</p>
   `
