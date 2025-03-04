@@ -42,12 +42,74 @@
 
     <!-- main -->
     <main class="flex gap-5 mt-5">
-      <div class="hero rounded-xl h-32 w-3/4 bg-white">
+      <!-- all cards/hero section -->
+      <section class="rounded-xl w-3/4 p-8 bg-white">
+        <!--! top into cards section-->
+        <section class="grid grid-cols-4 gap-4">
+          <!-- task counter -->
+          <div class="bg-slate-100 flex items-center gap-4 p-4 rounded-xl">
+            <div class="bg-white p-3 rounded-full">
+              <img src="assets/checkbox.png" alt="">
+            </div>
+            <div>
+              <p class="text-sm">Task Assigned</p>
+              <h2 class="text-3xl font-bold">6</h2>
+            </div>
+            
+          </div>
+          <!-- blog -->
+          <div id="blog" class="cursor-pointer bg-linear-to-r from-blue-800 to-purple-300 col-span-2 flex items-center gap-4 p-4 rounded-xl">
+            <div class="border border-dashed">
+              <img src="assets/board.png" alt="">
+            </div>
+            <h2 class="text-2xl text-white">Discover Something <br> New Today!</h2>
+          </div>
+          <!-- Date -->
+          <div class="bg-slate-100 flex items-center gap-4 p-4 rounded-xl">
+            <div class="bg-white p-3 rounded-full">
+              <img src="assets/calender.png" alt="">
+            </div>
 
-      </div>
-      <div class="sidebar rounded-xl h-32 w-1/4 bg-white">
+            <div>
+              <p class="text-lg">Wed ,</p>
+              <h2 class="text-xl font-bold">Jul 28 2025</h2>
+            </div>
+            
+          </div>
+        </section>
 
-      </div>
+        <hr class="my-6 border-top border-dashed border-slate-300">
+        <!--! task cards -->
+        <section class="grid grid-cols-3 grid-rows-2 gap-4">
+          <div class="bg-slate-100 flex items-center gap-4 p-4 rounded-xl">
+            <div class="bg-white p-3 rounded-full">
+              <img src="assets/checkbox.png" alt="">
+            </div>
+            <div>
+              <p class="text-sm">Task Assigned</p>
+              <h2 class="text-3xl font-bold">6</h2>
+            </div>
+            
+          </div>
+
+          <div class="bg-slate-100 flex items-center gap-4 p-4 rounded-xl">
+            <div class="bg-white p-3 rounded-full">
+              <img src="assets/checkbox.png" alt="">
+            </div>
+            <div>
+              <p class="text-sm">Task Assigned</p>
+              <h2 class="text-3xl font-bold">6</h2>
+            </div>
+            
+          </div>
+        </section>
+
+      </section>
+
+      <!-- sidebar section -->
+      <section class="sidebar rounded-xl w-1/4 bg-white">
+
+      </section>
     </main>
     
     <div class="bg-"></div>
@@ -56,6 +118,7 @@
   </section>
   <!-- scripts -->
   <script src="scripts/nav.js"></script>
+  <script src="scripts/blog.js"></script>
 </body>
 
 </html>
