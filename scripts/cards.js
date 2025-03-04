@@ -2,39 +2,6 @@ document.getElementById("blog").addEventListener("click", function () {
   window.location.href = "blog.html";
 });
 
-const fullDate = new Date();
-const days = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
-const months = [
-  "Jan",
-  "Feb",
-  "Mar",
-  "Apr",
-  "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec",
-];
-const day = fullDate.getDay();
-const date = fullDate.getDate();
-const month = fullDate.getMonth();
-const year = fullDate.getFullYear();
-
-document.getElementById(
-  "current-date"
-).innerHTML = `${days[day]} <br> ${months[month]} ${date}, ${year},`;
-
 document.getElementById("btn-1").addEventListener("click", function (event) {
   alert("You have successfully completed a task. Board updated.");
   disableButton("btn-1");
