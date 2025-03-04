@@ -32,7 +32,7 @@
       <div class="flex items-center gap-8">
         <div class="bg-slate-100 p-3 rounded-3xl flex items-center gap-4">
           <img src="assets/checkbox.png" alt="">
-          <h2 class="font-bold text-xl">23</h2>
+          <h2 id="task-completed" class="font-bold text-xl">23</h2>
         </div>
         <div id="theme-btn" class="cursor-pointer">
           <img class="bg-slate-100 p-2 rounded-full" src="assets/theme-btn.png" alt="">
@@ -46,14 +46,14 @@
       <section class="rounded-xl w-3/4 p-8 bg-white">
         <!--! top info cards section-->
         <section class="grid grid-cols-4 gap-4">
-          <!-- task counter -->
+          <!-- task assigned -->
           <div class="bg-slate-100 flex items-center gap-4 p-4 rounded-xl">
             <div class="bg-white p-3 rounded-full">
               <img src="assets/checkbox.png" alt="">
             </div>
             <div>
               <p class="text-sm">Task Assigned</p>
-              <h2 class="text-3xl font-bold">6</h2>
+              <h2 id="task-assigned" class="text-3xl font-bold">6</h2>
             </div>
 
           </div>
@@ -85,7 +85,7 @@
           <!--* card 1 -->
           <div class="bg-slate-100 p-6 rounded-xl space-y-3">
             <p class="bg-white p-4 rounded-xl btn border-none">ShopEase</p>
-            <h3 class="text-2xl font-bold">Fix Mobile Button Issue</h3>
+            <h3 id="card-title-1" class="text-2xl font-bold">Fix Mobile Button Issue</h3>
             <p class="bg-white rounded-xl p-4">The power button is not working on the Xiaomi phone.</p>
             <hr class="my-3 border-top border-dashed border-slate-300">
             <div class="flex justify-between items-center">
@@ -93,14 +93,14 @@
                 <p>Deadline</p>
                 <h3 class="text-lg">21 March 2025</h3>
               </div>
-              <button class="btn btn-primary text-white">Complete</button>
+              <button id="btn-1" class="btn btn-primary text-white">Complete</button>
             </div>
           </div>
 
           <!-- card 2 -->
           <div class="bg-slate-100 p-6 rounded-xl space-y-3">
             <p class="bg-white p-4 rounded-xl btn border-none">SwiftPay</p>
-            <h3 class="text-2xl font-bold">Optimize Home page</h3>
+            <h3 id="card-title-2" class="text-2xl font-bold">Optimize Home page</h3>
             <p class="bg-white rounded-xl p-4">The power button is not working on the Xiaomi phone.</p>
             <hr class="my-3 border-top border-dashed border-slate-300">
             <div class="flex justify-between items-center">
@@ -108,13 +108,13 @@
                 <p>Deadline</p>
                 <h3 class="text-lg">30 March 2025</h3>
               </div>
-              <button class="btn btn-primary text-white">Complete</button>
+              <button id="btn-2" class="btn btn-primary text-white">Complete</button>
             </div>
           </div>
           <!-- card 3 -->
           <div class="bg-slate-100 p-6 rounded-xl space-y-3">
             <p class="bg-white p-4 rounded-xl btn border-none">CloudSync</p>
-            <h3 class="text-2xl font-bold">Fix Mobile Button Issue</h3>
+            <h3 id="card-title-3" class="text-2xl font-bold">Add Dark Mode</h3>
             <p class="bg-white rounded-xl p-4">The power button is not working on the Xiaomi phone.</p>
             <hr class="my-3 border-top border-dashed border-slate-300">
             <div class="flex justify-between items-center">
@@ -122,13 +122,13 @@
                 <p>Deadline</p>
                 <h3 class="text-lg">17 May 2025</h3>
               </div>
-              <button class="btn btn-primary text-white">Complete</button>
+              <button id="btn-3" class="btn btn-primary text-white">Complete</button>
             </div>
           </div>
           <!-- card 4 -->
           <div class="bg-slate-100 p-6 rounded-xl space-y-3">
             <p class="bg-white p-4 rounded-xl btn border-none">Meta</p>
-            <h3 class="text-2xl font-bold">Add new emoji 🤲</h3>
+            <h3 id="card-title-4" class="text-2xl font-bold">Add new emoji 🤲</h3>
             <p class="bg-white rounded-xl p-4">The power button is not working on the Xiaomi phone.</p>
             <hr class="my-3 border-top border-dashed border-slate-300">
             <div class="flex justify-between items-center">
@@ -136,13 +136,13 @@
                 <p>Deadline</p>
                 <h3 class="text-lg">14 May 2025</h3>
               </div>
-              <button class="btn btn-primary text-white">Complete</button>
+              <button id="btn-4" class="btn btn-primary text-white">Complete</button>
             </div>
           </div>
           <!-- card 5 -->
           <div class="bg-slate-100 p-6 rounded-xl space-y-3">
             <p class="bg-white p-4 rounded-xl btn border-none">Google LLC</p>
-            <h3 class="text-2xl font-bold">Integrate OpenAI API </h3>
+            <h3 id="card-title-5" class="text-2xl font-bold">Integrate OpenAI API </h3>
             <p class="bg-white rounded-xl p-4">The power button is not working on the Xiaomi phone.</p>
             <hr class="my-3 border-top border-dashed border-slate-300">
             <div class="flex justify-between items-center">
@@ -150,13 +150,13 @@
                 <p>Deadline</p>
                 <h3 class="text-lg">12 March 2025</h3>
               </div>
-              <button class="btn btn-primary text-white">Complete</button>
+              <button id="btn-5" class="btn btn-primary text-white">Complete</button>
             </div>
           </div>
           <!-- card 6 -->
           <div class="bg-slate-100 p-6 rounded-xl space-y-3">
             <p class="bg-white p-4 rounded-xl btn border-none">GlassDoor</p>
-            <h3 class="text-2xl font-bold">Improve Job searching </h3>
+            <h3 id="card-title-6" class="text-2xl font-bold">Improve Job searching </h3>
             <p class="bg-white rounded-xl p-4">The power button is not working on the Xiaomi phone.</p>
             <hr class="my-3 border-top border-dashed border-slate-300">
             <div class="flex justify-between items-center">
@@ -164,7 +164,7 @@
                 <p>Deadline</p>
                 <h3 class="text-lg">23 April 2025</h3>
               </div>
-              <button class="btn btn-primary text-white">Complete</button>
+              <button id="btn-6" class="btn btn-primary text-white">Complete</button>
             </div>
           </div>
 
@@ -182,19 +182,22 @@
           <button class="btn btn-primary text-white text-xl m-4 font-normal">Clear History</button>
         </div>
         <hr class="my-6 border-top border-dashed border-slate-300">
-        <div id="sidebar-log">
-
+        <!--* log -->
+        <div id="activity-log">
+        
         </div>
       </section>
     </main>
 
-    <div class="bg-"></div>
+
 
 
   </section>
   <!-- scripts -->
   <script src="scripts/nav.js"></script>
   <script src="scripts/blog.js"></script>
+  <script src="utilities/utilities.js"></script>
+  <script src="scripts/cards.js"></script>
 </body>
 
 </html>
